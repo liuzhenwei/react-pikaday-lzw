@@ -42,14 +42,14 @@ var ReactPikaday = React.createClass({
 				// Workaround for pikaday not clearing value when date set to falsey
 				this.refs.pikaday.value = '';
 			}
-			this._picker.setDate(newDate, true); // 2nd param = don't call onSelect
+			this.picker.setDate(newDate, true); // 2nd param = don't call onSelect
 		}
 	},
 
 	componentDidMount: function componentDidMount() {
 		var el = this.refs.pikaday;
 
-		this._picker = new Pikaday(objectAssign({
+		this.picker = new Pikaday(objectAssign({
 			field: el,
 			onSelect: this.getValueLink(this.props).requestChange
 		}, this.props.initialOptions));
@@ -66,7 +66,7 @@ var ReactPikaday = React.createClass({
 
 	render: function render() {
 		return React.createElement('input', { type: 'text', ref: 'pikaday', className: this.props.className,
-			placeholder: this.props.placeholder, disabled: this.props.disabled });
+			placeholder: this.props.placeholder, disabled: this.props.disabled, readOnly: this.props.readOnly });
 	}
 });
 
