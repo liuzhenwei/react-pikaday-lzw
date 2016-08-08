@@ -1,0 +1,27 @@
+{
+  "name": "react-pikaday",
+  "version": "1.0.0",
+  "description": "ReactJs component for Pikaday",
+  "readme": "ReactJs component for Pikaday",
+  "main": "Pikaday.js",
+  "keywords": [
+    "Pikaday",
+    "Reactjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuzhenwei/react-pikaday-lzw.git"
+  },
+  "author": {
+    "name": "liuzhenwei"
+  },
+  "dependencies": {
+    "object-assign": "^4.0.1",
+    "pikaday": "^1.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=0.14.0",
+    "react-dom": ">=0.14.0"
+  },
+  "license": "MIT"
+}
