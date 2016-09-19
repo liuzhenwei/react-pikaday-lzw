@@ -66,7 +66,7 @@ var ReactPikaday = React.createClass({
 
 	render: function render() {
 		return React.createElement('input', { type: 'text', ref: 'pikaday', className: this.props.className,
-			placeholder: this.props.placeholder, disabled: this.props.disabled, readOnly: this.props.readOnly });
+			placeholder: this.props.placeholder, disabled: this.props.disabled, readOnly: this.props.readOnly, autoComplete: this.props.autoComplete });
 	}
 });
 
