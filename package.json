@@ -1,6 +1,6 @@
 {
   "name": "react-pikaday-lzw",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ReactJs component for Pikaday",
   "readme": "ReactJs component for Pikaday",
   "main": "Pikaday.js",
@@ -20,6 +20,7 @@
     "pikaday": "^1.2.0"
   },
   "peerDependencies": {
+    "prop-types": ">=15.0.0",
     "react": ">=0.14.0",
     "react-dom": ">=0.14.0"
   },

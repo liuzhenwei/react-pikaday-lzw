@@ -3,6 +3,7 @@
 var objectAssign = require('object-assign');
 
 var React = require('react');
+var PropTypes = require('prop-types');
 
 var Pikaday = require('pikaday');
 
@@ -10,13 +11,13 @@ var ReactPikaday = React.createClass({
 	displayName: 'ReactPikaday',
 
 	propTypes: {
-		value: React.PropTypes.instanceOf(Date),
-		onChange: React.PropTypes.func,
-		initialOptions: React.PropTypes.object,
+		value: PropTypes.instanceOf(Date),
+		onChange: PropTypes.func,
+		initialOptions: PropTypes.object,
 
-		valueLink: React.PropTypes.shape({
-			value: React.PropTypes.instanceOf(Date),
-			requestChange: React.PropTypes.func.isRequired
+		valueLink: PropTypes.shape({
+			value: PropTypes.instanceOf(Date),
+			requestChange: PropTypes.func.isRequired
 		})
 	},
 
