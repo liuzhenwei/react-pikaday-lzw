@@ -1,9 +1,9 @@
 {
   "name": "react-pikaday-lzw",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ReactJs component for Pikaday",
   "readme": "ReactJs component for Pikaday",
-  "main": "Pikaday.js",
+  "main": "index.js",
   "keywords": [
     "Pikaday",
     "Reactjs"
@@ -16,8 +16,7 @@
     "name": "liuzhenwei"
   },
   "dependencies": {
-    "object-assign": "^4.0.1",
-    "pikaday": "^1.2.0"
+    "object-assign": "^4.0.1"
   },
   "peerDependencies": {
     "prop-types": ">=15.0.0",

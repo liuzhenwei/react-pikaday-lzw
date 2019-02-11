@@ -5,7 +5,7 @@ var objectAssign = require('object-assign');
 var React = require('react');
 var PropTypes = require('prop-types');
 
-var Pikaday = require('pikaday');
+var Pikaday = require('./pikaday.js');
 
 class ReactPikaday extends React.Component{
 	constructor(props) {
